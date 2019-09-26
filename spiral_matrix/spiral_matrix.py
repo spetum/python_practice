@@ -6,7 +6,7 @@ for y in range(0, n):
         if x>=y:
             q = x+y - 2*p
         else:
-      	    q = (n-1 - 2*p)*4 - (x-p+y-p)
+            q = (n-1 - 2*p)*4 - (x-p+y-p)
         q += 4 * (p*n - (p*p))
         print("{:3d}".format(q), end="")
     print()
